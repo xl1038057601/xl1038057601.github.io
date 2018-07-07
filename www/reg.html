@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>个人注册</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="style/reg.css">
+</head>
+
+<body>
+    <header>
+        <div class="w">
+            <img src="images/reg4.png" alt="logo" class="pull-left">
+
+            <div class="pull-left">欢迎注册</div>
+
+            <div class="pull-right">已有账号？
+                <a href="login.html">请登录&gt;</a>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </header>
+
+    <section class="container w">
+        <div>
+                <div>
+                        <span class="greenBackground">1</span>
+                        <p class="green">验证手机号</p>
+                    </div>
+                    <div class="shengluehao shengluehaoFirst"></div>
+                    <div >
+                        <span class="greenBackground2">2</span>
+                        <p >填写账号信息</p>
+                    </div>
+                    <div class="shengluehao shengluehaoSecond"></div>
+                   
+                    <div >
+                        <span>3</span>
+                        <p >注册成功</p>
+                    </div>
+        </div>
+        <form action="">
+            <div class="first">
+                <div> <label for="">中国0086∨</label>
+                    <input type="text" name="tel" placeholder="建议使用常用手机号" required="required" pattern="\d{11}">
+                </div>
+                <p></p>
+                   <div>
+                        <label for="">手机验证码</label>
+                        <input type="text" name="text" placeholder="输入验证码">
+                        <p onclick="yanzhenma();">获取验证码</p>
+                   </div>
+                   <p></p>
+        
+                    <div class="next">下一步</div>
+            </div>
+
+            <div class="second" style="display: none;">
+                <div> <label for="">用户名</label>
+                    <input type="name"  name="user"  placeholder="您的账号名和登录名"  required="required" pattern="[u4e00-\u9fa5_a-zA-Z0-9-]{4,20}">
+                </div>
+                <p></p>
+                   <div>
+                        <label for="">设置密码</label>
+                        <input type="password" name="password"   placeholder="建议使用两种或两种以上字符组合"  required="required" pattern="\w{6,20}">
+                   </div>
+                <p></p>
+                   
+                   <div>
+                    <label for="">确认密码</label>
+                    <input type="password" name="password2" placeholder="请再次输入密码"  required="required">
+               </div>
+               <p></p>
+        
+                <input type="submit" value="立即注册">
+            </div>
+            
+         </form>
+             <div class="third w"   style="display: none;">
+                 <div>
+                        <img src="images/reg5.png" alt="">
+                        <p>恭喜您<span></span></p>
+                        <p>您已成功注册为京东用户，祝您购物愉快~</p>
+                        <div>去购物</div>
+                 </div>
+               
+
+             </div>
+    <div class="sectionFooter">
+        <img src="images/reg2.png" alt=""> <span>企业用户注册</span>
+        <img src="images/reg3.png" alt=""> <span>国际站注册</span>
+    
+    </div>
+    </section>
+    <div class="clearfix"></div>
+  
+    <footer>
+        <div class="links ">
+                <a> 关于我们</a>|
+                <a>联系我们</a>|
+                <a>人才招聘</a>|
+                <a>商家入驻</a>|
+                <a>广告服务</a>|
+                <a>手机京东</a>|
+                <a>友情链接</a>|
+                <a>销售联盟</a>|
+                <a>京东社区</a>|
+                <a>京东公益</a>|
+                <a>English Site</a>
+        </div>
+           <div class="copyright"> Copyright&copy;2004-2018&nbsp;&nbsp;京东JD.com&nbsp;版权所有</div>
+    </footer>
+
+
+    <script src="jquery/jquery-3.3.1.js"></script>
+    <script src="scripts/reg.js"></script>
+    <script src="jquery/jquery.cookie.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,229 @@
+header {
+    height: 100px;
+    box-shadow: 0px -3px 25px lightgrey;
+    overflow: hidden;
+}
+
+header>div {
+    height: 76px;
+    /* padding: 10px 0 0; */
+    width: 1210px;
+    margin: 0 auto;
+}
+
+header>div>.pull-left:nth-of-type(1) {
+    vertical-align: middle;
+    font-size: 24px;
+    color: #333;
+    line-height: 102px;
+}
+.w{
+    margin: 0 auto!important;
+    width: 1210px!important;
+}
+header>div>.pull-right {
+    font-size: 16px;
+    line-height: 135px;
+    color: #999;
+}
+
+header>div>.pull-right>a {
+    color: red;
+}
+
+header img {
+    /* margin-top: 5px; */
+    height: 50px;
+    width: 160px;
+    margin: 22px 0 0 0 !important;
+}
+section>div:first-of-type{
+    display: flex;
+    margin: 100px auto 0;
+    width: 410px;
+    font-size: 12px;
+    height: 55px
+    
+}
+section>div:first-of-type>div{
+   text-align: center;
+   /* color: #3b4; */
+   margin-left: -5px;
+}
+
+section>div:first-of-type>div>span{
+   height: 24px;
+   width: 24px;
+   display: block;
+   margin: 0 auto;
+   text-align: center;
+   padding-top: 5px;
+   color: #999;
+   /* background-image: url(images/img/reg-icon.png); */
+   background-image: url(../images/img/reg-icon.png);
+   background-position: -44px -200px;
+   
+}
+section>div:first-of-type>div>p{
+  margin-top: 10px;
+  color: #999;
+   
+}
+section>div:first-of-type>.shengluehao{
+    height: 10px;
+    width: 124px;
+    background-image: url(../images/img/reg-icon.png);
+    background-position: 0 -100px;
+    margin-top: 7px;
+   
+}
+.green{
+    color: #3b4 !important;
+    
+}
+.greenBackground{
+    background-position: 0px -200px!important;
+    color: white!important;
+    border: none!important;
+}
+section form{
+    margin: 50px auto 0;
+    width: 430px;
+}
+
+.first>div:nth-of-type(1)>input,.second>div input{
+    width: 290px;
+    height: 54px;
+    border:1px solid #DDDDDD;
+}
+.first>div>input,.second>div>input{
+    padding-left: 20px;
+   outline: none;
+}
+.second>div>input{
+    border:1px solid #DDDDDD;
+    border-left: none!important;}
+.first>div>input::-moz-placeholder,.second>div>input::-moz-placeholder{
+    color: lightgray;
+}.first>div>input::-webkit-input-placeholder,.second>div>input::-webkit-input-placeholder{
+    color: lightgray;
+}
+/* .first>div{
+    margin-bottom: 35px;
+} */
+.second>p,.first>p{
+    height: 35px;
+    line-height: 35px;
+    color: lightgray;
+}
+.first>div:nth-of-type(2)>input{
+    width: 182px;
+    height: 54px;
+    border:1px solid #DDDDDD;
+}
+.first>div>label,.second>div>label{
+    /* border:1px solid  #a9a9a9; */
+    height: 54px;
+    border:1px solid #DDDDDD;
+    border-right: none;
+}
+
+.first>div,.second>div{
+    display: flex;
+}
+.first>div>p{
+    width: 108px;
+    margin: 0;
+    float: right;
+    border:1px solid #DDDDDD;
+    height: 54px;
+    border-left: none;
+}
+.first>div:last-of-type,[type=submit]{
+    height: 54px;
+    width: 400px;
+    background-color:#e2231a; 
+    font-size: 16px;
+    color: white;
+    padding-left: 180px;
+    line-height: 54px;
+    margin: 0;
+}
+[type=submit]{
+    text-align: center;
+    padding-left: 0;
+    border: none;
+}
+.first>div>label,.first>div>p,.second>div>label{
+    width: 108px;
+    line-height: 54px;
+    text-align: center;
+    color: gray;
+}
+section>div:last-of-type{
+    margin: 30px auto;
+   width: 430px;
+   
+}
+
+section>div:last-of-type img:last-of-type{
+   margin-left: 170px;
+}
+
+.third>div{
+    width: 440px;
+    margin: 0 auto;
+    padding-right: 30px;
+}
+.third>div>img{
+    width: 40px;
+    height: 40px; 
+    margin: 0 185px;
+}
+
+
+.third>div>p:first-of-type{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px; 
+}
+.third>div>p:last-of-type{
+    text-align: center;
+    color: #999
+}
+
+.third>div>div{
+    width: 80px;
+    height: 40px;
+    background-color: red;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    font-size: 12px;
+   
+}
+footer div a,footer div{ color: #999;}
+footer div a:hover{ color: #999;}
+footer div a{margin: 0 10px;}
+footer div:first-of-type{overflow: hidden; margin: 30px 0 15px 0 }
+footer div:last-of-type{margin: 0 0 30px 0 }
+footer{border-top: 1px solid lightgray;margin-top: 170px}
